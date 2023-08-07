@@ -1,0 +1,63 @@
+body {
+    /* Agregar la imagen de fondo */
+    background-image: url('fondo.jpg');
+  
+    /* Centrar la imagen tanto horizontal como verticalmente */
+    background-position: center center;
+  
+    /* Asegurar que la imagen cubra todo el fondo */
+    background-size: cover;
+  
+    /* Fijar el fondo para que no se desplace con el contenido */
+    background-attachment: fixed;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    background-color: #f1f1f1; /* Nuevo color de fondo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center; /* Centra el contenido del contenedor horizontalmente */
+  }
+  
+  h1 {
+    color: #2c3e50; /* Nuevo color del título */
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  label, input {
+    color: #333; /* Nuevo color del texto */
+    display: block; /* Coloca cada label e input en una línea separada */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  button {
+    background-color: #3498db; /* Nuevo color del botón */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9; /* Nuevo color del botón al pasar el mouse */
+  }
+  
+  .btn-custom-large {
+    font-size: 14px;
+    padding: 15px 30px;
+  }
